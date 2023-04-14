@@ -1,0 +1,57 @@
+header {
+    background: rgba(0, 0, 0, .6);
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+    border-bottom: 1px solid black;
+    height: 7.7rem;
+}
+
+.cab__1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 5rem;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.logo {
+    width: 6%;
+}
+
+.btn__buscar {
+    margin-left: -6px;
+    border-bottom-right-radius: .7rem;
+    border-top-right-radius: .7rem;
+}
+
+.input__buscar {
+    padding-left: .3rem;
+    border-bottom-left-radius: .7rem;
+    border-top-left-radius: .7rem;
+}
+
+.menu__lista {
+    width: auto;
+    height: 2.6rem;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.menu__item {
+    width: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu__item:hover {
+    border-bottom: 4px solid whitesmoke;
+}
+
+.menu__link {
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: whitesmoke;
+}
